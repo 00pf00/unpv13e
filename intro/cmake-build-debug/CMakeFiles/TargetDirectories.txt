@@ -1,0 +1,3 @@
+/home/pf/workspace/unix/unpv13e/intro/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/pf/workspace/unix/unpv13e/intro/cmake-build-debug/CMakeFiles/intro.dir
+/home/pf/workspace/unix/unpv13e/intro/cmake-build-debug/CMakeFiles/edit_cache.dir
