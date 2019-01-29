@@ -12,7 +12,7 @@ main(int argc, char **argv)
 	bzero(&servaddr, sizeof(servaddr));
 	servaddr.sin_family = AF_INET;
 	servaddr.sin_port   = htons(13);	/* daytime server */
-	if (inet_pton(AF_INET, argv[1], &servaddr.sin_addr) <= 0)
+	if (inet_pton(AF_INET, argv[1], &servaddr.sin_addr) <= 0) //inet_pton将点分十进制的ip地址转化为用于网络传输的数值格式
 		err_quit("inet_pton error for %s", argv[1]);
 	if (connect(sockfd, (SA *) &servaddr, sizeof(servaddr)) < 0)
 		err_sys("connect error");
